@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+.red, .green, .yellow{
+    height: 100vh;
+    text-align: center;
+    color: white;
+    line-height: 100vh;
+    font-size: 32px;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+}
+
+.yellow{
+    background-color: yellow;
+    position: relative;
+}
+
+.nav-fix {
+    padding: 40px;
+    position: fixed;
+    margin-left: 20px;
+    line-height: 80px;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+    z-index: 1001;
+}
+
+.nav-item{
+    background-color: rgba(128, 128, 128, 0.658);
+    width: 30px;
+    color: honeydew;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: medium;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+.center{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
